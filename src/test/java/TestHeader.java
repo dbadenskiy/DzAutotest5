@@ -15,7 +15,7 @@ public class TestHeader {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1474x822";
         Configuration.timeout = 5000;
-        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = false;
     }
 
     @Test
