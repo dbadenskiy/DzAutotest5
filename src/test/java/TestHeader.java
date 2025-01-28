@@ -23,7 +23,7 @@ public class TestHeader {
         open("https://github.com/");
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $("a[href='https://github.com/enterprise']").click();
-        $("#js-flash-container").shouldHave(text("The AI-powered developer platform"));
+        $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
 
     }
 }
